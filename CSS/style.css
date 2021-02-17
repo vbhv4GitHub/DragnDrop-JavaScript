@@ -2,3 +2,36 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: crimson;
+}
+
+.whitebox {
+    height: 189px;
+    width: 189px;
+    background-color: coral;
+    padding: 21px;
+    margin: 34px;
+}
+
+.imgBox {
+    background-image: url('../Img/image.jpg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    position: relative;
+    height: 155px;
+    width: 155px;
+    margin: auto;
+    top: 13px;
+    cursor: pointer;
+}
+
