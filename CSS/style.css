@@ -11,9 +11,11 @@ body {
     display: flex;
     flex-direction: row;
     background-color: crimson;
+    justify-content: center;
+    align-items: center;
 }
 
-.whitebox {
+.whiteBox {
     height: 189px;
     width: 189px;
     background-color: coral;
@@ -35,3 +37,16 @@ body {
     cursor: pointer;
 }
 
+.hold {
+    border: solid 4px black;
+}
+
+.hide {
+    display: none;
+}
+
+.dashed {
+    background: rgb(212, 212, 212);
+    border: solid 1px red;
+    border-style: groove;
+}
